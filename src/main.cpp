@@ -69,7 +69,7 @@ void setup() {
 	logger.info("SlimeVR v" FIRMWARE_VERSION " starting up...");
 
 	led.begin();
-	led.setPixelColor(0, led.Color(15, 15, 15));
+	led.setPixelColor(0, led.Color(33, 33, 33));
 	led.show();
 
 	statusManager.setStatus(SlimeVR::Status::LOADING, true);
